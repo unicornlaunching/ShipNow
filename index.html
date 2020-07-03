@@ -3,6 +3,53 @@
  <Freightcom xmlns="http://www.freightcom.net/xml/XMLSchema"
 username="unicornlaunching" password="XXXXX" version="3.1.0"> 
   tesht
+  
+  <LabelData>
+<Label>
+<Type>PNG</Type>
+<Data>[base-64 encoded String]</Data>
+</Label>
+<Label>
+<Type>PNG</Type>
+<Data>[base-64 encoded String]</Data>
+</Label>
+</LabelData>
+  
+  <Freightcom xmlns="http://www.freightcom.net/XMLSchema" version="3.1.0">
+<ShipmentCancelReply>
+<Order orderId="383363" message="Order has been cancelled!" />
+<Status statusId="4" />
+</ShipmentCancelReply>
+</Freightcom>
+
+  
+  <Freightcom xmlns="http://www.freightcom.net/XMLSchema" version="3.1.0">
+<QuoteReply>
+<Quote carrierId="20" carrierName="Freightcom" serviceId="2029"
+serviceName="Central Transport" modeTransport="A" transitDays="1"
+baseCharge="177.0" fuelSurcharge="0.0" totalCharge="177.0"
+currency="CAD">
+</quote>
+<Quote carrierId="21" carrierName="Freightcom" serviceId="2107"
+serviceName="Estes" modeTransport="G" transitDays="1"
+baseCharge="28.650000000000002" fuelSurcharge="0.0" totalCharge="28.65"
+currency="CAD">
+</quote>
+<Quote carrierId="19" carrierName="Freightcom" serviceId="1911"
+serviceName="USF Holland" modeTransport="null" transitDays="0"
+baseCharge="46.27000045776367" fuelSurcharge="6.25" totalCharge="52.52"
+currency="CAD">
+</quote>
+<CarrierErrorMessage size="1" errorMessage0="Polaris:Military Base
+Delivery,Saturday Pickup,Construction Site,BORDER FEE,Homeland
+Security,Limited Access,Saturday Delivery,Sort and Segregate Charge,Pier
+Charge">
+</CarrierErrorMessage>
+</QuoteReply>
+<Freightcom>
+ 
+ 
+  
    
 <?xml version="1.0" encoding="UTF-8"?>
 <Freightcom xmlns="http://www.freightcom.net/XMLSchema" username="username"
